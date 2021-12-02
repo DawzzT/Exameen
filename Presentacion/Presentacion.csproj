@@ -46,16 +46,34 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Form1.cs">
+    <Compile Include="Presentaciones\Estudiante.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form1.Designer.cs">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <Compile Include="Presentaciones\Estudiante.Designer.cs">
+      <DependentUpon>Estudiante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentaciones\FrmNotas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentaciones\FrmNotas.Designer.cs">
+      <DependentUpon>FrmNotas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentaciones\FrmPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentaciones\FrmPrincipal.Designer.cs">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form1.resx">
-      <DependentUpon>Form1.cs</DependentUpon>
+    <EmbeddedResource Include="Presentaciones\Estudiante.resx">
+      <DependentUpon>Estudiante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentaciones\FrmNotas.resx">
+      <DependentUpon>FrmNotas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentaciones\FrmPrincipal.resx">
+      <DependentUpon>FrmPrincipal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

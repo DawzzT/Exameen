@@ -12,5 +12,16 @@ namespace Infraestructura
         {
             checherereque.Add(t);
         }
+
+        public List<T> Mostrar()
+        {
+            return checherereque;
+        }
     }
 }
+
+
+
+
+
+
